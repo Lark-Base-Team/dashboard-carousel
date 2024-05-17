@@ -1,0 +1,6 @@
+{
+  "label.link": "Embed URL",
+  "label.color": "Select Color",
+  "placeholder.link": "Enter the URL of the page you want to embed",
+  "placeholder.urlEmpty": "Please set the URL of the page you want to embed"
+}
