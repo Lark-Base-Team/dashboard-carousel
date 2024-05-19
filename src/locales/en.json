@@ -1,8 +1,8 @@
 {
   "label.text": "Text to Show",
   "label.color": "Select Color",
-  "label.speed": "Speed",
-  "label.fontSize": "Font Size",
+  "label.speed": "Speed  (10 Sec. - 60 Sec.)",
+  "label.fontSize": "Font Size (10px - 64px)",
   "label.fontSizeUnit": "px",
   "label.speedUnit": "Seconds",
   "placeholder.text": "Enter the Text to Show"

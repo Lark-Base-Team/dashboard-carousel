@@ -31,7 +31,7 @@ function App() {
     fontSize: 20,
     showTitle: true,
     text: "",
-    speed: 10,
+    speed: 20,
   });
 
   const isCreate = dashboard.state === DashboardState.Create;
@@ -74,7 +74,13 @@ function App() {
       <div className="content">
         <div className="marquee">
           <div
-            style={{ color: color, fontSize: fontSize }}
+            style={{
+              color: color,
+              fontSize: fontSize,
+              display: 'inline-block',
+              paddingLeft: '100%',
+              animation: `marquee ${config.speed}s linear infinite`
+            }}
             className="marquee-content"
           >
             {config.text || t("placeholder.text")}
@@ -88,6 +94,7 @@ function App() {
               <Form.Label className="label">{t("label.text")}</Form.Label>
               <TextArea
                 autosize
+                maxCount={1000}
                 className="input"
                 value={config.text}
                 placeholder={t("placeholder.text")}
