@@ -1,5 +1,9 @@
 {
   "label.text": "Text to Show",
   "label.color": "Select Color",
-  "placeholder.link": "Enter the Text to Show"
+  "label.speed": "Speed",
+  "label.fontSize": "Font Size",
+  "label.fontSizeUnit": "px",
+  "label.speedUnit": "Seconds",
+  "placeholder.text": "Enter the Text to Show"
 }

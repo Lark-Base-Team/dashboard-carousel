@@ -1,5 +1,9 @@
 {
   "label.text": "轮播文本:",
   "label.color": "颜色",
+  "label.speed": "播放速度",
+  "label.fontSize": "字体大小",
+  "label.fontSizeUnit": "px",
+  "label.speedUnit": "秒",
   "placeholder.text": "请输入轮播文本"
 }

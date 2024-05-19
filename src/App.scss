@@ -134,7 +134,8 @@ body[theme-mode="light"] {
   --ccm-chart-I700: #161fa2;
   --ccm-chart-I800: #0a1285;
   --ccm-chart-I900: #0c1264;
-  --line-color: rgba(235, 235, 235, 0.15);
+  --line-color: #dfe0e3;
+  --unit-box: #eff0f1;
 }
 
 body[theme-mode="dark"] {
@@ -272,6 +273,7 @@ body[theme-mode="dark"] {
   --ccm-chart-I800: #bbc0f6;
   --ccm-chart-I900: #d2d5fd;
   --line-color: rgba(207, 207, 207, 0.15);
+  --unit-box: rgba(207, 207, 207, 0.15);
 }
 
 html,
@@ -335,7 +337,27 @@ html {
 
 .btn {
   align-self: flex-end;
-  padding: 0 30px ;
+  padding: 0 30px;
+}
+
+.input {
+  border: var(--line-color) 1px solid;
+}
+
+.input-number {
+  width: 100%;
+}
+
+.semi-input-wrapper {
+  border: var(--line-color) 1px solid;
+}
+
+.unit {
+  padding: 5px;
+  line-height: 1;
+  margin-right: 10px;
+  background-color: var(--unit-box);
+  border-radius: 4px;
 }
 
 .container {
