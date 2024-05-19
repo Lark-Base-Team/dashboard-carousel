@@ -8,6 +8,7 @@ import {
   Image,
   Space,
   Form,
+  TextArea,
 } from "@douyinfe/semi-ui";
 import { useTheme, useConfig } from "./hooks/index";
 import "./App.scss";
@@ -85,8 +86,8 @@ function App() {
           <Form className="form">
             <div className="form-item">
               <Form.Label className="label">{t("label.text")}</Form.Label>
-              <Input
-              type="textarea"
+              <TextArea
+                autosize
                 className="input"
                 value={config.text}
                 placeholder={t("placeholder.text")}
@@ -96,7 +97,7 @@ function App() {
                     text: v,
                   });
                 }}
-              ></Input>
+              ></TextArea>
             </div>
 
             <div className="form-item">
