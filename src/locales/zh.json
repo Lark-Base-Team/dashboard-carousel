@@ -1,6 +1,5 @@
 {
-  "label.link": "网页链接:",
+  "label.text": "轮播文本:",
   "label.color": "颜色",
-  "placeholder.link": "请输入需要嵌入的网页链接",
-  "placeholder.urlEmpty": "请配置需要嵌入的网页链接"
+  "placeholder.text": "请输入轮播文本"
 }
