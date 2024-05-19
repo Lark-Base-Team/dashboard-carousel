@@ -123,7 +123,7 @@ function App() {
               <Form.Label className="label">{t("label.fontSize")}</Form.Label>
               <InputNumber
                 min={10}
-                max={50}
+                max={64}
                 className="input-number"
                 innerButtons={true}
                 suffix={t("label.fontSizeUnit")}
