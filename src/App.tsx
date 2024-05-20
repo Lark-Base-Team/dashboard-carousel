@@ -78,6 +78,7 @@ function App() {
               color: color,
               fontSize: fontSize,
               display: 'inline-block',
+              fontFamily: 'PingFang SC',
               paddingLeft: '100%',
               animation: `marquee ${config.speed}s linear infinite`
             }}
