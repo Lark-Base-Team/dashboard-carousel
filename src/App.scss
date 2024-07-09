@@ -305,6 +305,8 @@ html {
 
 .config-panel {
   width: 340px;
+  height: 100%;
+  overflow: auto;
   flex: none;
   display: flex;
   justify-content: flex-start;
@@ -382,6 +384,15 @@ html {
   box-sizing: border-box;
   // background: #f0f0f0; /* Optional: to visualize the marquee area */
   padding: 10px 0; /* Optional: to add some padding */
+}
+.semi-input-textarea {
+  max-height: 240px;
+  overflow: auto;
+}
+
+.form {
+  height: calc(100% - 70px);
+  overflow: auto;
 }
 
 /* Keyframes for the marquee animation */
