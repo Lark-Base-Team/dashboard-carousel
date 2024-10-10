@@ -11,6 +11,7 @@ import {
   TextArea,
 } from "@douyinfe/semi-ui";
 import { useTheme, useConfig } from "./hooks/index";
+import '@lark-base-open/js-sdk/dist/style/dashboard.css';
 import "./App.scss";
 import classnames from "classnames";
 import { ColorPicker } from "./components/ColorPicker";
@@ -24,7 +25,7 @@ interface ICarouselConfig {
 }
 
 function App() {
-  useTheme();
+  const { bgColor } = useTheme();
 
   const [config, setConfig] = useState<ICarouselConfig>({
     color: "var(--ccm-chart-N700)",
@@ -65,12 +66,7 @@ function App() {
   const { color, fontSize } = config;
 
   return (
-    <main
-      className={classnames({
-        "main-config": isConfig,
-        main: true,
-      })}
-    >
+    <main  style={{backgroundColor: bgColor}} className={classnames({ "main-config": isConfig, main: true })}>
       <div className="content">
         <div className="marquee">
           <div
