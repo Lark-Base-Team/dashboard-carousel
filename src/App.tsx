@@ -76,7 +76,8 @@ function App() {
               display: 'inline-block',
               fontFamily: 'PingFang SC',
               paddingLeft: '100%',
-              animation: `marquee ${config.speed}s linear infinite`
+              animation: `marquee ${config.speed}s linear infinite`,
+              willChange: 'transform'
             }}
             className="marquee-content"
           >
